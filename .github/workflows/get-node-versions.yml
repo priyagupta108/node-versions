@@ -6,7 +6,7 @@ on:
 
 jobs:
   get-new-node-versions:
-    uses: actions/versions-package-tools/.github/workflows/get-new-tool-versions.yml@main
+    uses: actions/versions-package-tools/.github/workflows/get-new-tool-versions.yml@Nodearm647z
     with:
       tool-name: "Node"
       image-url: "https://nodejs.org/static/images/logo-hexagon-card.png"
